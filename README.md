@@ -15,8 +15,6 @@ Este é um projeto de enquetes onde os usuários podem criar e votar em pesquisa
 3. Instale as dependências: `npm install`
 
 ## Uso
-//docker compose up -d
-
 
 1. Crie um arquivo `.env` na raiz do projeto com a seguinte variável de ambiente:
 ```
