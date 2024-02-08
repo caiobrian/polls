@@ -1,4 +1,4 @@
-# FastPolls
+# Polls
 
 Este é um projeto de enquetes onde os usuários podem criar e votar em pesquisas.
 
