@@ -17,9 +17,11 @@ Este é um projeto de enquetes onde os usuários podem criar e votar em pesquisa
 ## Uso
 
 1. Crie um arquivo `.env` na raiz do projeto com a seguinte variável de ambiente:
+
 ```
 DATABASE_URL="postgresql://postgres:postgres@localhost:5432/polls?schema=public"
 ```
+
 2. Inicie o docker para subir o Postgres e o Redis: `docker compose up -d`
 3. Execute as migrações do banco de dados: `npx prisma migrate dev`
 4. Inicie o servidor: `npm run dev`
