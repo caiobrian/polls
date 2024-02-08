@@ -1,6 +1,6 @@
 type Message = { pollOptionId: string, votes: number }
 
-class VotingPubSub {
+export class VotingPubSub {
   private listeners: Record<string, ((message: Message) => void)[]> = {}
   
   subscribe(event: string, listener: (message: Message) => void) {
